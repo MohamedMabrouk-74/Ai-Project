@@ -78,3 +78,11 @@ The following results demonstrate the performance differences between algorithms
 > **Observation:** notice how **A\*** finds the same optimal path as BFS but visits significantly fewer nodes (125 vs 380), making it the most balanced choice.
 
 ---
+
+## 👥 Team Members
+
+* Mohamed Mabrouk Heshmat Mabrouk
+* 
+* 
+* 
+* 
