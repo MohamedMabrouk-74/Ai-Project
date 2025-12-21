@@ -63,7 +63,7 @@ It serves as a comparative study between **Uninformed (Blind)** and **Informed (
 ---
 ## 📈 Expected Results
 
-The following results demonstrate the performance differences between algorithms on a **20x20 Grid Maze** with moderate obstacles.
+The following results demonstrate the performance differences between algorithms on a **5x5 Grid Maze** with moderate obstacles.
 
 ### 1. Performance Metrics Table
 
