@@ -34,20 +34,20 @@ def bfs(maze, start, goal):
 
     return None
 
+
 maze = [
-    [0, 0, 1, 0],
-    [1, 0, 1, 0],
-    [0, 0, 0, 0],
-    [0, 1, 1, 0]
+    [0, 0, 0, 1, 0],
+    [1, 1, 0, 1, 0],
+    [0, 0, 0, 0, 0],
+    [0, 1, 1, 1, 0],
+    [0, 0, 0, 0, 0]
 ]
 
 start = (0, 0)
-goal = (3, 3)
-
+goal = (4, 4)
 path = bfs(maze, start, goal)
 
 if path:
     print("Find path", path)
 else:
     print("Not")
-   #  Find path [(0, 0), (0, 1), (1, 1), (2, 1), (2, 2), (2, 3), (3, 3)]
