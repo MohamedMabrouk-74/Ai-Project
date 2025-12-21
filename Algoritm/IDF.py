@@ -11,7 +11,6 @@ def get_neighbors(maze, node):
 
     return neighbors
 
-
 def dls(maze, node, goal, depth, visited, path):
     if node == goal:
         return path
