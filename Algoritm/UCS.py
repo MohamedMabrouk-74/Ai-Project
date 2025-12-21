@@ -44,7 +44,6 @@ def ucs(grid, start, goal):
 
     return None, float("inf")
 
-
 path, cost = ucs(GRID, START, GOAL)
 
 print("Path found:", path)
