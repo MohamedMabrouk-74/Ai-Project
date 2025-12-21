@@ -44,7 +44,6 @@ def hill_climbing(grid, start, goal):
     return path, len(path) - 1
 
 path, cost = hill_climbing(GRID, START, GOAL)
-
 if path:
     print("Path found:", path)
     print("Path cost:", cost)
