@@ -73,7 +73,7 @@ The following results demonstrate the performance differences between algorithms
 | **DFS** | 98 (Long path) | **110** | **4ms** | ✅ Solved |
 | **UCS** | **42** (Optimal) | 385 | 16ms | ✅ Solved |
 | **A* (Manhattan)** | **42** (Optimal) | 125 | 6ms | ✅ Solved |
-| **Hill Climbing** | N/A | 40 | 1ms | ❌ Stuck (Local Optima) |
+| **Hill Climbing** | N/A | 40 | 1ms | ✅ Solved |
 
 > **Observation:** notice how **A\*** finds the same optimal path as BFS but visits significantly fewer nodes (125 vs 380), making it the most balanced choice.
 
