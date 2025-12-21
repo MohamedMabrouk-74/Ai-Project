@@ -34,7 +34,6 @@ def bfs(maze, start, goal):
 
     return None
 
-
 maze = [
     [0, 0, 1, 0],
     [1, 0, 1, 0],
